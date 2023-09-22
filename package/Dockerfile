@@ -1,6 +1,6 @@
 FROM registry.suse.com/bci/bci-base:15.4
 
-ARG ARCH=amd64
+ARG ARCH=ppc64le
 
 # Based on https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner/blob/master/deploy/docker/x86_64/Dockerfile
 FROM registry.suse.com/suse/sle15:15.4 AS build
